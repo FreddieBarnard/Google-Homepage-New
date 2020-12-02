@@ -48,5 +48,31 @@ body{
     min-height: 100vh;
 }
 
+.logo{
+    display: block;
+    margin: 0px auto;
+    margin-top: 100px;
+}
 
+.s-box{
+    width: 700px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
 
+.s-box .s-input{
+    display: block;
+    border-radius: 20px;
+    border: 1px solidd;
+}
+
+.s-btn{
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 5px 15px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 28px;
+    margin-right: 10px;
+}
