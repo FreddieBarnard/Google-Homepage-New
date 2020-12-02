@@ -37,7 +37,7 @@ body{
     width: 20px;
     height: 20px;
     padding: 5px;
-    margin: right 80pxk;
+    margin-right: 20px;
     background: lightblue;
     border-radius: 50%;
 }
@@ -59,6 +59,7 @@ body{
     margin: 0px auto;
     position: relative;
     text-align: center;
+    outline: none;
 }
 
 .s-box .s-input{
@@ -69,6 +70,7 @@ body{
     padding: 10px;
     padding-left: 45px;
     width: 100%;
+    outline: none;
 }
 
 .s-btn{
@@ -90,6 +92,10 @@ body{
 
 footer{
     background: rgba(236, 234, 234, 0.801);
+    position: fixed;
+    bottom: 0;
+    left: 0;    
+    right: 0%;
 }
 
 footer a {
@@ -104,5 +110,11 @@ footer a {
 }
 
 .link-1{
+    padding-left: 18px;
     flex: 1;
+}
+
+.link-2{
+    padding-right: 18px;
+
 }
